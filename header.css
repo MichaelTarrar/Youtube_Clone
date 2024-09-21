@@ -1,0 +1,126 @@
+
+.header {
+  height: 55px;
+  display: flex;
+  justify-content:space-between ;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:grey ;
+  z-index: 100;
+  
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.mid-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.hamburger {
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 24px;
+}
+
+.yt {
+  height: 20px;
+}
+
+.upload , .apps , .noti {
+  height: 30px;
+
+}
+
+.channel {
+  height: 34px;
+  border-radius: 17px;
+}
+
+.search-button {
+   height: 35px;
+   width: 60px;
+   margin-left: -1px;
+   margin-right: 10px;
+}
+
+.search-button:hover{
+    background-color: rgb(178, 176, 176);
+}
+
+.search-icon {
+   height: 25px;
+   margin-top: 4px;
+}
+
+.mic-button {
+    height: 35px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.mic-icon {
+    height: 20px;
+    margin-top: 4px;
+}
+
+.searchbar {
+  flex: 1;
+  width: 0px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 2px;
+  box-shadow: inset;
+}
+
+.searchbar::placeholder {
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.noti-container {
+  position: relative;
+}
+
+.noti-num {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-family: Roboto;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
